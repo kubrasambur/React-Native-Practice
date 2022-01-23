@@ -1,7 +1,7 @@
 import { Button, StyleSheet, Text, View } from 'react-native';
 import React, { useEffect, useState } from 'react';
 
-const CleanUp = () => {
+function CleanUp () {
     const [helloFlag, setHelloFlag] = useState(true);
 
     function updateFlag() {
